@@ -28,6 +28,14 @@ If the particle is fiber-shaped ($a > b$) then $\xi > 0$ and this term pulls the
 \end{quote}
 Thanks to Florian Mallmann for this correction.
 
+\section*{Chapt.\ 5. Flow Orientation of Groups of Fibers}
+
+On page 163, Eqn.~(5.99), the first plus sign on the right-hand side should be a minus sign.  The corrected equation should read
+\begin{equation*}
+    \dot{\A}^\text{RSC} = \dot{\A} - (1 - \kappa) \sum_{\lambda = 1}^3 \dot{\lambda}_i \ev_i \ev_i
+\end{equation*}
+Thanks to Julien F\'erec for this correction.
+
 \section*{Chapt.\ 8. Mechanical Properties and Orientation}
 
 The example on page 246 of modeling stiffness vs.~fiber orientation is described as being for a 40\% by weight long glass fiber/PP composite, but the calculations for Fig.~8.5 actually used 30\% by weight.  40\% should be changed to 30\% in the fiber caption and in the second line of the first paragraph on page 246.  Thanks to Huidi Ji for this correction.
@@ -39,7 +47,7 @@ The example calculation in Section~8.4.5 for the stiffness of a layered structur
     \caption*{Fig. 8.6(c) Stiffness, 40 wt.\% long glass fiber/PP}
 \end{figure*}
 
-\newpage %%%%%%%%%%%%%% REMOVE THIS IN THE NEXT UPDATE %%%%%%%%%%
+
 \noindent The correct table should read:
 \begin{table}[h]
     \centering
@@ -56,6 +64,20 @@ The example calculation in Section~8.4.5 for the stiffness of a layered structur
                   ~~~~~~~~ Flexural  & 6.58 & 5.42 
            \end{tabular}
     \end{table}
+    
+
+\section*{Chapt.\ 9. Current and Future Trends}
+
+On page 266, Eqn.~(9.10) is incorrect for a 1--3 shear flow.  The error does not affect Eqn.~(9.11).  Equation~(9.10) should read
+\begin{equation*}
+       \boldsymbol{\Sigma}^p = \dot{\gamma} 
+                            \left[ \begin{array}{ccc}
+                                  -\eta_n  & 0 & \eta_p \\
+                                  0   & -\hat{\lambda}_3 \eta_n &0 \\
+                                  \eta_p & 0 & -\hat{\lambda}_2 \eta_n
+                            \end{array} \right]
+\end{equation*}
+Thanks to Julien F\'erec for this correction.
     
 \section*{References}
 
